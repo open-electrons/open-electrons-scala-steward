@@ -17,7 +17,7 @@ jobs:
       # REPOSITORIES.md is used.
       - uses: actions/checkout@v2
 
-      
+      # Cache SBT dependencies to speed up the build process
       - name: Cache SBT dependencies
         uses: actions/cache@v2
         with:
