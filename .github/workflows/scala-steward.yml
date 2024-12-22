@@ -1,6 +1,10 @@
 name: Scala Steward
 
 on:
+  push:
+    branches:
+      - master
+  
   schedule:
     # Schedule to run every Sunday @ 12PM UTC. Replace this with
     # whatever seems appropriate to you.
