@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - 'images/**'
+      - README.md
   
   schedule:
     # Schedule to run every Sunday @ 12PM UTC. Replace this with
