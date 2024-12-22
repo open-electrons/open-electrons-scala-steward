@@ -2,3 +2,4 @@
 - open-electrons/ocpp-scala
 - open-electrons/open-electrons-templates
 - open-electrons/eMSP-platform
+- open-electrons/open-electrons-infra
