@@ -40,6 +40,6 @@ jobs:
           github-token: ${{ secrets.SCALA_STEWARD_GITHUB_TOKEN }}
           # A Markdown file with a literal Markdown list of repositories
           # Scala Steward should monitor.
-          repos-file: REPOSITORIES.md
+          repos-file: repos.md
           author-email: scala-steward@users.noreply.github.com
           author-name: Scala Steward
