@@ -17,6 +17,16 @@ jobs:
       # REPOSITORIES.md is used.
       - uses: actions/checkout@v2
 
+      
+      - name: Cache SBT dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.ivy2/cache
+          key: ${{ runner.os }}-sbt-${{ hashFiles('**/build.sbt') }}
+          restore-keys: |
+              ${{ runner.os }}-sbt-
+
+      # Run Scala Steward
       - name: Execute Scala Steward
         uses: scala-steward-org/scala-steward-action@vX.Y.Z
         with:
