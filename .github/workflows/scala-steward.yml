@@ -34,6 +34,9 @@ jobs:
               ${{ runner.os }}-sbt-
 
       # Run Scala Steward
+      - name: Fetch shared Scala Steward config
+        run: |
+          curl -o .scala-steward.conf https://github.com/open-electrons/open-electrons-templates/blob/master/common-templates/scala-steward.conf
       - name: Execute Scala Steward
         uses: scala-steward-org/scala-steward-action@v2.72.0
         with:
