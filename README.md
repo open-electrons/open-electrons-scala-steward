@@ -9,4 +9,4 @@ To add new projects for automatic dependency updates, add the corresponding proj
 - repo_owner/project_name
 ```
 
-Where repo_owner is always open-electrons and the project_name is the actual project under the ownership of open-electrons.
+Where repo_owner is always open-electrons and the project_name is the actual project under the ownership of open-electrons. For multi module scala projects, TOODOo....
