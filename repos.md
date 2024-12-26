@@ -5,5 +5,5 @@
 - open-electrons/ocpp-scala
 - open-electrons/ocpi-scala
 - open-electrons/oscp-scala
-## The sub-projects of the cpo-platform are run based on the scala-steward.conf file located in the cpo-platform project
+## The cpo-platform asud-modules are run based on the scala-steward.conf in the cpo-platform root
 - open-electrons/cpo-platform
